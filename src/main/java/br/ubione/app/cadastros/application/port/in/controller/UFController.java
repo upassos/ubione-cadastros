@@ -36,7 +36,7 @@ public class UFController {
     }
 	
 	@GetMapping("/{codibge}")
-    public ResponseEntity<UF> buscarPorCodIBGE(@PathVariable int codibge) {
+    public ResponseEntity<UF> buscarPorCodIBGE(@PathVariable String codibge) {
         return ResponseEntity.ok(service.recuperaPorCodIbge(codibge));
     }
 	

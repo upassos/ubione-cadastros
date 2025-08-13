@@ -28,7 +28,7 @@ public class UFEntity {
     private UUID id;
     
     @Column(name = "codibge", nullable = false)
-    private int codibge;
+    private String codibge;
     
     @Column(name = "nome", nullable = false)
     private String nome;

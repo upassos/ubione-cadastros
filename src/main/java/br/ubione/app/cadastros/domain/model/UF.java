@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class UF {
 	private UUID id;
-	private int codibge;
+	private String codibge;
 	private String nome;
 	private String sigla;
 	private List<Municipio> municipios;

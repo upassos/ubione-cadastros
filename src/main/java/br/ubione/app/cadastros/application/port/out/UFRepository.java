@@ -8,7 +8,7 @@ import br.ubione.app.cadastros.domain.model.UF;
 public interface UFRepository {
 
 	List<UF> findAll();
-	UF findByCodibge(int codigo);
+	UF findByCodibge(String codigo);
 	UF findById(UUID id);
 	List<UF> findBySiglaContaining(String sigla);
 	List<UF> findByNomeContaining(String nome);

@@ -24,7 +24,7 @@ public class UFRepositoryImpl implements UFRepository {
 	}
 	
 	@Override
-	public UF findByCodibge(int codigo) {
+	public UF findByCodibge(String codigo) {
 		return jpa.findByCodibge(codigo).map(UFMapper::toDomain).orElse(null);
 	}
 	

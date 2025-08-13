@@ -22,7 +22,7 @@ public class UFService implements UFUseCase{
 	}
 
 	@Override
-	public UF recuperaPorCodIbge(int codigo) {
+	public UF recuperaPorCodIbge(String codigo) {
 		return repository.findByCodibge(codigo);
 	}
 

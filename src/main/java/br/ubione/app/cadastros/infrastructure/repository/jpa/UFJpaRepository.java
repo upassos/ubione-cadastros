@@ -10,7 +10,7 @@ import br.ubione.app.cadastros.infrastructure.entity.UFEntity;
 
 public interface UFJpaRepository extends JpaRepository<UFEntity, UUID>{
 
-	Optional <UFEntity> findByCodibge(int codigo);
+	Optional <UFEntity> findByCodibge(String codigo);
 
 	List<UFEntity> findBySiglaContaining(String sigla);
 	
