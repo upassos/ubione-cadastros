@@ -11,7 +11,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://medApp:5433/postgres
       SPRING_DATASOURCE_USERNAME: usuario_master
-      SPRING_DATASOURCE_PASSWORD: 4uthUs3r
+      SPRING_DATASOURCE_PASSWORD: m3d4PP
     networks:
       - autenticador-network
 
