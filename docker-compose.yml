@@ -9,7 +9,7 @@ services:
     ports:
       - "8082:8082"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://srv901974.hstgr.cloud:5433/postgres
+      SPRING_DATASOURCE_URL: jdbc:postgresql://medApp:5432/postgres
       SPRING_DATASOURCE_USERNAME: usuario_master
       SPRING_DATASOURCE_PASSWORD: m3d4PP
       SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
